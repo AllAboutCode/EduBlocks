@@ -34,6 +34,7 @@ app.post('/runcode', (req, res) => {
   // Kill the last process if it is still running...
   if (proc) {
     proc.kill('SIGTERM');
+
   }
 
   proc = spawn('python3', ['-u', scriptPath], { stdio: ['pipe', 'pipe', 'pipe'] });

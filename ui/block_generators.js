@@ -801,3 +801,57 @@ Blockly.Python['comment_block'] = function(block) {
   var code = '#' +text_method +'\n';
   return code;
 };
+
+//*******************************
+// Added by andrew pye
+// 17/04/2017
+// Flask Web Server
+//*******************************
+Blockly.Python['flask_import'] = function(block) {
+  var code = 'from flask import Flask\n';
+  return code;
+};
+
+Blockly.Python['flask_server'] = function(block) {
+	// TODO: Assemble Python into code variable.
+	var route = Blockly.Python.statementToCode(block, 'ROUTE');
+	var text_method = block.getFieldValue('port');
+	//var code = 'from flask import Flask\n';
+	var code = 'app = Flask(__name__)\n';
+	//some code to fix the indentation
+	var s=route.split("\n");
+	for (var i=0;i<s.length;i++){
+		if(s[i].startsWith("  ")){
+			s[i]=s[i].replace("  ","");
+		}
+	}
+	route=s.join("\n");
+	code += route;
+	code += 'if __name__ == "__main__":\n';
+	code += '  app.run(debug=False,port='+text_method+', host="0.0.0.0")\n';
+	return code;
+};
+
+Blockly.Python['flask_route'] = function(block) {
+	// TODO: Assemble Python into code variable.
+	var text_method = block.getFieldValue('method');
+	var text_route = block.getFieldValue('route');
+	var route = Blockly.Python.statementToCode(block, 'DO');
+	var code = '@app.route("'+text_route+'")\n';
+	if(text_method.endsWith(")")){
+		code += 'def '+text_method+':\n';
+	}else{
+		code += 'def '+text_method+'():\n';
+	}
+	
+	code += route;//'  return "Hello world"\n';
+	return code;
+};
+
+Blockly.Python['flask_return'] = function(block) {
+  // TODO: Assemble Python into code variable.
+  var text_method = block.getFieldValue('var');
+  var code = 'return ' + text_method +'\n';
+  return code;
+};
+
