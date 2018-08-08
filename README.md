@@ -68,7 +68,7 @@ NOTE: Windows users will need to enable symbolic link support before they attemp
 
 ### Dependencies
 
-Install Node.JS 6.10.2 using the appropriate installer for your platform. For Linux and Mac OS X (and also Bash on Windows), we recommend using NVM for this.
+Install Node.JS 6.10.2 using the appropriate installer for your platform. For Linux and Mac OS X (and also Bash on Windows), we recommend using NPM for this.
 
 Install Yarn:
 
