@@ -59,4 +59,12 @@ export default function define(Python: Blockly.BlockGenerators) {
     var code = variable_turtle+'.width(' +text_dist+ ')\n';
     return code;
   };
+
+  Python['circle'] = function(block) {
+    var variable_turtle = Blockly.Python.variableDB_.getName(block.getFieldValue('turtle'), Blockly.Variables.NAME_TYPE);
+    var text_dist = block.getFieldValue('dist');
+    // TODO: Assemble Python into code variable.
+    var code = variable_turtle+'.circle(' +text_dist+ ')\n';
+    return code;
+  };
 }

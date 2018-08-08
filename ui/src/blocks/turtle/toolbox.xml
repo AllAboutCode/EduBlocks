@@ -7,4 +7,5 @@
     <block type="pen"></block>
     <block type="colourpen"></block>
     <block type="penwidth"></block>
+    <block type="circle"></block>
 </category>  

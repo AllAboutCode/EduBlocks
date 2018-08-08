@@ -111,4 +111,19 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
    this.setHelpUrl("");
     }
   };
+
+  Blocks['circle'] = {
+    init: function() {
+      this.appendDummyInput()
+          .appendField(new Blockly.FieldVariable("turtle"), "turtle")
+          .appendField(".circle(")
+          .appendField(new Blockly.FieldTextInput(""), "dist")
+          .appendField(")");
+      this.setPreviousStatement(true, null);
+      this.setNextStatement(true, null);
+      this.setColour(240);
+   this.setTooltip("Draw a circle");
+   this.setHelpUrl("");
+    }
+  };
 }
