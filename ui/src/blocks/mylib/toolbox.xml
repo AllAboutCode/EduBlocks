@@ -1,5 +1,5 @@
 <category name="mylib" colour="135">
-<block type="import_mylib"</block>
-<block type="mylib_cmd"</block>
+  <block type="import_mylib"</block>
+  <block type="mylib_cmd"</block>
 </category>
 
