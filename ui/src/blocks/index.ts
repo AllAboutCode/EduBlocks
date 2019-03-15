@@ -63,7 +63,7 @@ import mylibDefs from './mylib/definitions';
 import mylibGens from './mylib/generators';
 mylibDefs(Blockly.Blocks);
 mylibGens(Blockly.Python as any);
-const mylib = fs.readFileSync(path.join(__dirname, '..', '..', 'src', 'blocks', 'mylib', 'toolbox.xml'));
+toolBoxXml += fs.readFileSync(path.join(__dirname, '..', '..', 'src', 'blocks', 'mylib', 'toolbox.xml'));
 
 toolBoxXml += '</xml>';
 
