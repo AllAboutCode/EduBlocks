@@ -1,7 +1,0 @@
-<category name="Sense Hat" colour="20">
-  <block type="senseimport"></block>
-  <block type="senseimportemu"></block>
-  <block type="senseinit"></block>
-  <block type="senseshow"></block>
-  <block type="senseshowvar"></block>
-</category>
