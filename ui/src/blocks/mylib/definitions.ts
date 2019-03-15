@@ -1,5 +1,5 @@
 export default function define(Blocks: Blockly.BlockDefinitions) {
-  Blockly.Blocks['import_mylib'] = {
+  Blocks['import_mylib'] = {
     init: function() {
       this.appendDummyInput()
           .appendField("import mylib");
@@ -11,7 +11,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     }
   }; 
   
-  Blockly.Blocks['mylib_cmd'] = {
+  Blocks['mylib_cmd'] = {
     init: function() {
       this.appendDummyInput()
           .appendField("mylib.")
