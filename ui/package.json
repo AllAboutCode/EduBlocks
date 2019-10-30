@@ -37,6 +37,8 @@
         "@types/w3c-web-usb": "^1.0.3",
         "change-case": "^3.0.1",
         "file-saver": "^1.3.3",
+        "firebase": "^7.2.2",
+        "firebaseui": "^4.2.0",
         "lodash": "^4.17.4",
         "preact": "^8.4.2",
         "term.js": "^0.0.7"

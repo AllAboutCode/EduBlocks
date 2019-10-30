@@ -11,7 +11,7 @@ interface EduBlocksClient {
   sendPacket(packet: Packet): void;
 }
 
-const homeDirPath = process.env[(process.platform === 'win32') ? 'USERPROFILE' : 'HOME'];
+const homeDirPath = process.env[(process.platform === 'win32') ? 'USERPROFILE' : 'HOME']!;
 const eduBlocksWorkingPath = path.join(homeDirPath, '.edublocks');
 
 if (!fs.existsSync(eduBlocksWorkingPath)) {

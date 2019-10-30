@@ -8,8 +8,6 @@ interface AlertModalProps<T extends AlertModalOption> {
 
   onCancel(): void;
   onButtonClick(key: string): void;
-  
-
 }
 
 interface AlertModalState {

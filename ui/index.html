@@ -2,85 +2,96 @@
 <html lang="en" manifest="caching.appcache">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112406385-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112406385-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-112406385-1');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="EduBlocks" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-  
-  <meta property="og:title" content="EduBlocks">
-  <meta property="og:description" content="Making the transition from Blocks to text easier. Learn more at edublocks.org">
-  <meta property="og:image" content="https://i.ibb.co/Rc59ggz/ebMeta.png">
-  <meta property="og:url" content="https://edublocks.org">
+        gtag('js', new Date());
 
-  <meta name="theme-color" content="#396afc">
+        gtag('config', 'UA-112406385-1');
+    </script>
 
-  <meta name="twitter:title" content="EduBlocks">
-  <meta name="twitter:description" content="Making the transition from Blocks to text easier. Learn more at edublocks.org">
-  <meta name="twitter:image" content="https://i.ibb.co/Rc59ggz/ebMeta.png">
-  <meta name="twitter:card" content="summary_large_image">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="EduBlocks"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+
+    <meta property="og:title" content="EduBlocks">
+    <meta property="og:description"
+          content="Making the transition from Blocks to text easier. Learn more at edublocks.org">
+    <meta property="og:image" content="https://i.ibb.co/Rc59ggz/ebMeta.png">
+    <meta property="og:url" content="https://edublocks.org">
+
+    <meta name="theme-color" content="#396afc">
+
+    <meta name="twitter:title" content="EduBlocks">
+    <meta name="twitter:description"
+          content="Making the transition from Blocks to text easier. Learn more at edublocks.org">
+    <meta name="twitter:image" content="https://i.ibb.co/Rc59ggz/ebMeta.png">
+    <meta name="twitter:card" content="summary_large_image">
 
 
-  <meta name="x-host-type" content="" />
+    <meta name="x-host-type" content=""/>
 
-  <title>edublocks</title>
+    <title>edublocks</title>
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
 
-  <link rel="icon" type="image/png" href="images/logo.png" />
-  <link rel="stylesheet" href="lib/xterm.js/xterm.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+    <link rel="stylesheet" href="lib/xterm.js/xterm.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
-  <script src="lib/es6-promise.min.js"></script>
-  <script src="lib/xterm.js/xterm.js"></script>
-  <script src="lib/xterm.js/addons/fit/fit.js"></script>
+    <script src="lib/es6-promise.min.js"></script>
+    <script src="lib/xterm.js/xterm.js"></script>
+    <script src="lib/xterm.js/addons/fit/fit.js"></script>
 
-  <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
-  <link rel="stylesheet" href="picnic/picnic.css" />
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+    <link rel="stylesheet" href="fonts/icons/css/fontello.css"/>
+    <link rel="stylesheet" href="picnic/picnic.css"/>
 
-  <!-- Page styles -->
-  <link rel="stylesheet" href="css/editor.css" />
-  <link rel="stylesheet" href="css/themes.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"/>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="css/editor.css"/>
+    <link rel="stylesheet" href="css/themes.css"/>
 </head>
 
 <body>
-  <div id="page">
+<div id="page">
     <!-- React -->
-
     <p class="loading-message">Loading...</p>
-  </div>
+</div>
 
-  <!-- The main Blockly files -->
-  <script src="blockly/blockly_compressed.js"></script>
-  <script src="blockly/python_compressed.js"></script>
-  <script src="blockly/msg/js/en.js"></script>
+<!-- The main Blockly files -->
+<script src="blockly/blockly_compressed.js"></script>
+<script src="blockly/python_compressed.js"></script>
+<script src="blockly/msg/js/en.js"></script>
 
-  <script src="lib/ace9/ace.js" type="text/javascript" charset="utf-8"></script>
-  <script src="lib/ace9/mode-python.js" type="text/javascript" charset="utf-8"></script>
-  <script src="lib/ace9/theme-monokai.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/ace9/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/ace9/mode-python.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/ace9/theme-monokai.js" type="text/javascript" charset="utf-8"></script>
 
-  <script src="dist/main.js"></script>
+<script src="dist/main.js"></script>
 
-  <script async type="text/javascript">
+<script async type="text/javascript">
     window._urq = window._urq || [];
     _urq.push(['initSite', 'cd3e2d46-4e22-400d-9f52-f5e9460ddf8b']);
     (function () {
-      var ur = document.createElement('script'); ur.type = 'text/javascript'; ur.async = true;
-      ur.src = ('https:' == document.location.protocol ? 'https://cdn.userreport.com/userreport.js' : 'http://cdn.userreport.com/userreport.js');
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ur, s);
+        var ur = document.createElement('script');
+        ur.type = 'text/javascript';
+        ur.async = true;
+        ur.src = ('https:' == document.location.protocol ? 'https://cdn.userreport.com/userreport.js' : 'http://cdn.userreport.com/userreport.js');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ur, s);
     })();
-  </script>
+</script>
 
 
 </body>

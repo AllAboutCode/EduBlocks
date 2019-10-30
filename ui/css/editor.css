@@ -1,472 +1,495 @@
 body {
-  height: auto;
+    height: auto;
 }
 
-.blocklyWidgetDiv .fieldTextInput{
-  height: 0 !important;
-  width: 0 !important;
+.blocklyWidgetDiv .fieldTextInput {
+    height: 0 !important;
+    width: 0 !important;
 }
 
 .blocklyFlyoutLabelIcon {
-  font-family: 'Font Awesome\ 5 Free';
-  font-size: 1.5rem;
-  font-weight: 900;
-  fill: white;
+    font-family: 'Font Awesome\ 5 Free';
+    font-size: 1.5rem;
+    font-weight: 900;
+    fill: white;
 }
 
 .blocklyTreeIconCustom {
-  background: none !important;
-  font-family: 'Font Awesome\ 5 Free';
-  font-weight: 900;
-  font-size: 1.3rem;
-  margin: 0 .25em;
-  width: 30px !important;
-  height: 100% !important;
-  line-height: 45px;
-  min-height: 45px;
-  vertical-align: middle;
+    background: none !important;
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin: 0 .25em;
+    width: 30px !important;
+    height: 100% !important;
+    line-height: 45px;
+    min-height: 45px;
+    vertical-align: middle;
 }
 
 
 .loading-message {
-  font-size: 100px;
-  color: #aaa;
-  text-align: center;
+    font-size: 100px;
+    color: #aaa;
+    text-align: center;
 }
 
-.buttonFloatRight{
-  float: right;
+.buttonFloatRight {
+    float: right;
 }
 
-.buttonMarginRight{
-  margin-right: 15px;
+.buttonMarginRight {
+    margin-right: 15px;
 }
 
 #page {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-nav .button{
-  color: white !important;
-  background-color: rgba(0,0,0,0)
+nav .button {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0)
 }
 
 nav {
-  background: #396afc;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #396afc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .Nav__platformImg {
-  margin-right: 10px;
-  height: 2em;
+    margin-right: 10px;
+    height: 2em;
 }
 
-nav .show:checked ~ .menu{
-  background-color: #585858;
+nav .show:checked ~ .menu {
+    background-color: #585858;
+}
+
+nav .login {
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.3em 0.9em;
+    float: right;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .login img {
+    max-height: 100%;
+    border-radius: 50%;
+    margin-left: 1em;
 }
 
 
-.pseudo.button{
-  color: white !important;
+.pseudo.button {
+    color: white !important;
 }
 
 /* `SelectModal` Component
 ---------------------------------------------------------------- */
 .SelectModel__container {
-  background: none !important;
-  border: solid 1px #000 !important;
+    background: none !important;
+    border: solid 1px #000 !important;
 }
 
 .AlertModel__container {
-  border: solid 1px #000 !important;
-  background: none !important;
+    border: solid 1px #000 !important;
+    background: none !important;
 }
 
-.content{
-  background: #fff;
+.content {
+    background: #fff;
 }
 
-.alertFooter{
-  background: #fff;
-  overflow: hidden;
+.alertFooter {
+    background: #fff;
+    overflow: hidden;
 }
-
 
 
 .SelectModal__header {
-  background: #396afc;
-  color: #fff;
-  border-bottom: none !important;
+    background: #396afc;
+    color: #fff;
+    border-bottom: none !important;
 }
 
 .SelectModal__close {
-  color: #fff;
+    color: #fff;
 }
 
 .SelectModel__content {
-  background: #fff;
-  padding: .6em .8em !important;
+    background: #fff;
+    padding: .6em .8em !important;
 }
 
 .SelectModal__buttons {
-  background: #eee;
-  overflow: hidden;
+    background: #eee;
+    overflow: hidden;
 }
 
 
 .SelectModal__grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(100px, 1fr));
-  align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    align-items: center;
 }
 
 
 .SelectModal__cell--text > span {
-  line-height: 40px;
+    line-height: 40px;
 }
+
 .SelectModal__cell--action > button {
-  float: right;
+    float: right;
 }
 
-  .blocklyToolboxDiv{
-    background-color:  	#585858 !important;
+.blocklyToolboxDiv {
+    background-color: #585858 !important;
     color: #FFFFFF !important;
-  }
+}
 
-  
 
-nav .brand{
-  color: white;
+nav .brand {
+    color: white;
 }
 
 button {
-  margin: 0;
+    margin: 0;
 }
 
 .blocklyText {
 
-  cursor: default;
-  fill: #fff;
-  font-family: "Helvetica Neue", "Segoe UI", Helvetica, sans-serif;
-  font-size: 12pt;
-  font-weight: bold !important;
+    cursor: default;
+    fill: #fff;
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold !important;
 
 }
 
-.myLabelStyle>.blocklyFlyoutLabelText {
-  fill: white;
+.myLabelStyle > .blocklyFlyoutLabelText {
+    fill: white;
 }
 
-.modal{
-  background-color: none !important;
-  border: black 1px;
+.modal {
+    background-color: none !important;
+    border: black 1px;
 }
 
 
 table.primary td {
-  padding: .3em .6em;
+    padding: .3em .6em;
 }
 
 .filename {
-  font-weight: normal;
-  font-family: Courier New, Courier, monospace;
-  margin-left: 20px;
+    font-weight: normal;
+    font-family: Courier New, Courier, monospace;
+    margin-left: 20px;
 }
 
 .file {
-  display: none;
+    display: none;
 }
 
 #workspace {
-  height: calc(100vh - 3em);
-  position: relative;
-  margin-top: 3em;
+    height: calc(100vh - 3em);
+    position: relative;
+    margin-top: 3em;
 }
 
 #toggleViewButton {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  opacity: 0.75;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  background: #fff;
-  color: #000;
-  /*border-left: solid 2px #aaa;
-  border-bottom: solid 2px #aaa;*/
-  text-transform: capitalize;
-  box-shadow: 0 0 5px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    opacity: 0.75;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #fff;
+    color: #000;
+    /*border-left: solid 2px #aaa;
+    border-bottom: solid 2px #aaa;*/
+    text-transform: capitalize;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
+
 #toggleViewButton:focus {
-  outline: none;
+    outline: none;
 }
+
 #toggleViewButton:hover {
-  background: #ccc;
+    background: #ccc;
 }
 
 #blockly {
-  width: 100%;
-  height: 100%;
-  background-color: white;
+    width: 100%;
+    height: 100%;
+    background-color: white;
 }
 
 #python {
-  white-space: pre;
-  font-family: Courier New, Courier, monospace;
-  font-size: 20px;
-  line-height: 28px;
-  padding: 10px;
-  background: #e7e7e7;
-  border-top: solid 1px #000;
-  border-bottom: solid 1px #000;
+    white-space: pre;
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px;
+    background: #e7e7e7;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
 }
 
 #editor {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 #terminal-dialog {
-  position: fixed;
-  z-index: 10001;
-  left: 20px;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  border: solid 1px #000;
-  line-height: 20px;
+    position: fixed;
+    z-index: 10001;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: solid 1px #000;
+    line-height: 20px;
 }
 
 
 .terminal-help {
-  height: 28px;
-  line-height: 28px;
-  padding: 0 4px;
-  background: white;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 4px;
+    background: white;
 }
 
 
 .terminal-help .help-item {
-  margin: 0 10px 0 0;
+    margin: 0 10px 0 0;
 }
+
 .terminal-help .key {
-  background: #ddd;
-  padding: 2px 3px;
-  border: solid 1px #777;
+    background: #ddd;
+    padding: 2px 3px;
+    border: solid 1px #777;
 }
 
 
-
-a{
-  color: #396afc
+a {
+    color: #396afc
 }
-
 
 
 #term {
-  height: calc(100% - 28px);
-  background: #333;
+    height: calc(100% - 28px);
+    background: #333;
 }
 
-.blocklySvg{
-  background-image: url("https://edublocks.org/rsz_newpythonbackground.png") !important;
-    
+.blocklySvg {
+    background-image: url("https://edublocks.org/rsz_newpythonbackground.png") !important;
+
 }
 
-.blocklyTreeRow{
-  height: 52px !important
+.blocklyTreeRow {
+    height: 52px !important
 }
 
 /* Specifying rounded toolbox borders. */
 div.blocklyTreeRow {
-  border-radius: 4px;
-  padding-left: 6px !important;
-  
+    border-radius: 4px;
+    padding-left: 6px !important;
+
 }
 
 .ImageModalOptionContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ImageModalOption {
-  /* flex: 0 0 calc(33.3% - 20px); */
-  width: 190px;
-  transition: box-shadow .3s;
-  border: solid 1px #e5e3e3;
-  margin: 10px;
-  text-align: center;
+    /* flex: 0 0 calc(33.3% - 20px); */
+    width: 190px;
+    transition: box-shadow .3s;
+    border: solid 1px #e5e3e3;
+    margin: 10px;
+    text-align: center;
 }
 
 .ImageModalOption:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 .ImageModalOption > * {
-  display: block;
+    display: block;
 }
 
-.ImageModalOption img{
-  height:120px !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 15px;
+.ImageModalOption img {
+    height: 120px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
 }
 
-.ImageModalOption:hover img{
-  animation: beat 0.5s infinite alternate;
+.ImageModalOption:hover img {
+    animation: beat 0.5s infinite alternate;
 }
 
-.ImageModalOptionButtonContainer{
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
+.ImageModalOptionButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
-.button-green{
-  background-color: #49B04D !important;
+.button-green {
+    background-color: #49B04D !important;
 }
 
 
-.ImageModalOption button{
-  margin-bottom: 8px;
+.ImageModalOption button {
+    margin-bottom: 8px;
 }
 
 .ImageModalOption .icon-help-circled {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 /* `TrinketView` Component
 ---------------------------------------------------------------- */
 
 .TrinketView__Container {
-  height: calc(100% - 28px);
-  position: relative;
-  background: white;
+    height: calc(100% - 28px);
+    position: relative;
+    background: white;
 }
 
 .TrinketView__ContainerLoading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url('/images/rsz_webpy.png') no-repeat center;
-  animation: spin 4s linear infinite;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('/images/rsz_webpy.png') no-repeat center;
+    animation: spin 4s linear infinite;
+    width: 100%;
+    height: 100%;
 }
 
 .TrinketView__Container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
 }
 
-@keyframes spin { 100% { transform:rotate(360deg); } }
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
-@keyframes beat{
-	to { transform: scale(1.05); }
+@keyframes beat {
+    to {
+        transform: scale(1.05);
+    }
 }
 
 /* Blockly Toolbox Icons */
 
 .blocklyTreeIconCustom.basic::before {
-  content: "\f144";
+    content: "\f144";
 }
 
 .blocklyTreeIconCustom.turtle::before {
-  content: "\f303";
+    content: "\f303";
 }
 
 .blocklyTreeIconCustom.minecraft::before {
-  content: "\f1b2";
+    content: "\f1b2";
 }
 
 .blocklyTreeIconCustom.gpio::before {
-  content: "\f0eb";
+    content: "\f0eb";
 }
 
 
 .blocklyTreeIconCustom.sonic::before {
-  content: "\f001";
+    content: "\f001";
 }
 
 .blocklyTreeIconCustom.pimoroni::before {
-  content: "\f714";
+    content: "\f714";
 }
 
 .blocklyTreeIconCustom.http::before {
-  content: "\f0c1";
+    content: "\f0c1";
 }
 
 .blocklyTreeIconCustom.sense::before {
-  content: "\f7bf";
+    content: "\f7bf";
 }
 
 .blocklyTreeIconCustom.bitio::before {
-  content: "\f11b";
+    content: "\f11b";
 }
 
 .blocklyTreeIconCustom.variables::before {
-  content: "\f52c";
+    content: "\f52c";
 }
 
 .blocklyTreeIconCustom.camera::before {
-  content: "\f030";
+    content: "\f030";
 }
 
 .blocklyTreeIconCustom.imports::before {
-  content: "\f093";
+    content: "\f093";
 }
 
 .blocklyTreeIconCustom.statements::before {
-  content: "\f12a";
+    content: "\f12a";
 }
 
 .blocklyTreeIconCustom.logic::before {
-  content: "\f362";
+    content: "\f362";
 }
 
 .blocklyTreeIconCustom.lists::before {
-  content: "\f03a";
+    content: "\f03a";
 }
 
 .blocklyTreeIconCustom.loops::before {
-  content: "\f2f9";
+    content: "\f2f9";
 }
 
 .blocklyTreeIconCustom.definitions::before {
-  content: "\f02d";
+    content: "\f02d";
 }
 
 .blocklyTreeIconCustom.math::before {
-  content: "\f698";
+    content: "\f698";
 }
 
 .blocklyTreeIconCustom.graphs::before {
-  content: "\f200";
+    content: "\f200";
 }
 
 .blocklyTreeIconCustom.random::before {
-  content: "\f074";
+    content: "\f074";
 }
 
 .blocklyTreeIconCustom.processing::before {
-  content: "\f53f";
+    content: "\f53f";
 }
 
-iframe > body{
-  background: white !important;
+iframe > body {
+    background: white !important;
 }
 

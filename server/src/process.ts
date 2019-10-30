@@ -1,5 +1,5 @@
 const pty = require('node-pty');
-import { ITerminal, IPtyForkOptions } from 'node-pty/src/interfaces';
+import { ITerminal } from 'node-pty/src/interfaces';
 
 interface TerminalEvents {
   on(event: 'data', handler: (data: string) => void): void;
@@ -10,15 +10,13 @@ function initProcess(cmd: string, args: any[]) {
 
   let cols = 80, rows = 30;
 
-  const opts: IPtyForkOptions = {
+  const proc: ITerminal & TerminalEvents = pty.spawn(cmd, args, {
     name: 'xterm-color',
     cols,
     rows,
     cwd: process.env.HOME,
     env: process.env,
-  };
-
-  const proc: ITerminal & TerminalEvents = pty.spawn(cmd, args, opts);
+  });
 
   proc.on('data', (data) => {
     // process.stdout.write(data);
