@@ -307,7 +307,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
   };
 
 
-  Blocks['p_noloop'] = {
+  Blocks['p_noLoop'] = {
     init: function () {
       this.appendDummyInput()
         .appendField("noLoop(");
@@ -326,7 +326,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     }
   };
 
-  Blocks['p_nofill'] = {
+  Blocks['p_noFill'] = {
     init: function () {
       this.appendDummyInput()
         .appendField("noFill(");
@@ -345,10 +345,10 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     }
   };
 
-  Blocks['p_nosmooth'] = {
+  Blocks['p_noSmooth'] = {
     init: function () {
       this.appendDummyInput()
-        .appendField("nosmooth(");
+        .appendField("noSmooth(");
       this.appendValueInput("text")
         .setCheck(null);
       this.appendDummyInput()
@@ -383,7 +383,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     }
   };
 
-  Blocks['p_nostroke'] = {
+  Blocks['p_noStroke'] = {
     init: function () {
       this.appendDummyInput()
         .appendField("noFill(");
@@ -588,7 +588,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     }
   };
 
-  Blocks['p_nostroke'] = {
+  Blocks['p_noStroke'] = {
     init: function () {
       this.appendDummyInput()
         .appendField("noStroke(");

@@ -117,21 +117,21 @@ export default function define(Python: Blockly.BlockGenerators) {
   Python['p_noloop'] = function(block) {
     var value_text = Blockly.Python.valueToCode(block, 'text', Blockly.Python.ORDER_ATOMIC);
     // TODO: Assemble Python into code variable.
-    var code = 'noloop(' +value_text+ ')\n';
+    var code = 'noLoop(' +value_text+ ')\n';
     return code;
   };
 
   Python['p_nofill'] = function(block) {
     var value_text = Blockly.Python.valueToCode(block, 'text', Blockly.Python.ORDER_ATOMIC);
     // TODO: Assemble Python into code variable.
-    var code = 'nofill(' +value_text+ ')\n';
+    var code = 'noFill(' +value_text+ ')\n';
     return code;
   };
 
   Python['p_nosmooth'] = function(block) {
     var value_text = Blockly.Python.valueToCode(block, 'text', Blockly.Python.ORDER_ATOMIC);
     // TODO: Assemble Python into code variable.
-    var code = 'nosmooth(' +value_text+ ')\n';
+    var code = 'noSmooth(' +value_text+ ')\n';
     return code;
   };
 
