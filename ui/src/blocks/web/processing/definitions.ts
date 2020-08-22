@@ -462,7 +462,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
   Blocks['p_rectmode'] = {
     init: function () {
       this.appendDummyInput()
-        .appendField("rectmode(");
+        .appendField("rectMode(");
       this.appendValueInput("text")
         .setCheck(null);
       this.appendDummyInput()
