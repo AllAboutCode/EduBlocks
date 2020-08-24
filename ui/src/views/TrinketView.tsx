@@ -59,7 +59,7 @@ export default class TrinketView extends Component<Props, {}> {
           {this.props.visible && 
             <iframe
               frameBorder={0}
-              src={`https://trinket.io/tools/1.0/jekyll/embed/python3?runOption=run&outputOnly=true&start=result#code=${this.getEscapedCode()}`}
+              src={`https://trinket.io/tools/1.0/jekyll/embed/python?runOption=run&outputOnly=true&start=result#code=${this.getEscapedCode()}`}
             />
           }
 

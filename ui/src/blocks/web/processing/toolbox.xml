@@ -119,7 +119,7 @@
     </value>
   </block>
 
-  <block type="p_noloop">
+  <block type="p_noLoop">
     <value name="text">
       <shadow type="textinline">
         <field name="text"></field>
@@ -127,7 +127,7 @@
     </value>
   </block>
 
-  <block type="p_noloop">
+  <block type="p_noLoop">
     <value name="text">
       <shadow type="textinline">
         <field name="text"></field>
@@ -135,7 +135,7 @@
     </value>
   </block>
 
-  <block type="p_nofill">
+  <block type="p_noFill">
     <value name="text">
       <shadow type="textinline">
         <field name="text"></field>
@@ -143,7 +143,7 @@
     </value>
   </block>
 
-  <block type="p_nosmooth">
+  <block type="p_noSmooth">
     <value name="text">
       <shadow type="textinline">
         <field name="text"></field>
@@ -159,7 +159,7 @@
     </value>
   </block>
 
-  <block type="p_nostroke">
+  <block type="p_noStroke">
     <value name="text">
       <shadow type="textinline">
         <field name="text"></field>
@@ -241,7 +241,7 @@
     </value>
   </block>
 
-  <block type="p_nostroke">
+  <block type="p_noStroke">
     <value name="text">
       <shadow type="textinline">
         <field name="text"></field>
